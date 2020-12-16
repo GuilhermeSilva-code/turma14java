@@ -11,7 +11,7 @@ public class anoNascimento {
 		anoNascimento = leia.nextInt();
 		
 		idade = 2020 - anoNascimento;
-		System.out.println(Sua);
+		System.out.println("Seu ano de nascimento é: ");
 		
 		return;
 		
