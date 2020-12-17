@@ -8,6 +8,7 @@ public class BancoTeste {
 		int conta;
 		char op;
 		double valor= 0.00;
+		double credito=0.00;
 		System.out.println("Digite o numero da conta: ");
 		conta = leia.nextInt();
 		
@@ -18,7 +19,7 @@ public class BancoTeste {
 		
 		contapobre.credito(100);
 		contarico.valorLimite = 10000;
-	   
+	
 		
 		contaEspecial processo1 = new contaEspecial(); //declarar o objeto e usar o construtor
 		System.out.println("Saldo atual da conta é "+processo1.saldo);

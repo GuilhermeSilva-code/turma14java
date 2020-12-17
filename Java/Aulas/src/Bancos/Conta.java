@@ -18,4 +18,7 @@ public class Conta {
 		this.cpf = cpf;
 		
 	}
+	
+	public double saldo();
+
 }
